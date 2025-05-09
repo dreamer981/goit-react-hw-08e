@@ -1,0 +1,56 @@
+.contactList {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+
+}
+
+.contactItem {
+  width: 100%;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(81, 66, 118, 0.1);
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #514276;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.contactItem:hover {
+  background-color: rgba(81, 66, 118, 0.2);
+  transform: scale(1.01);
+}
+
+.contactDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: #010101;
+}
+
+.contactName,
+.contactNumber {
+  font-size: 1rem;
+}
+
+
+
+.button {
+  background-color: #514276;
+  color: #ffffff;
+  border: 1px solid  #514276;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.button:hover {
+  background-color: #595689;
+  color: #1e1e1e;
+  background-color: #595689;
+}

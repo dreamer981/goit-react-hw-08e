@@ -1,0 +1,30 @@
+.usermenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 0;
+}
+.username {
+    color: white;
+    align-items: center;
+}
+
+.username, .button {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+.button {
+    margin-right: 50px;
+    text-decoration: none;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: #595689;
+}
+

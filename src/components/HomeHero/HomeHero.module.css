@@ -1,0 +1,17 @@
+.homeHero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    row-gap: 10px;  
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.about {
+    color: #6c757d;
+    margin-top: 10px;
+    text-align: center;
+  }
